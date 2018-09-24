@@ -147,13 +147,23 @@ mode (`options=keyValues`).
         "value": "moderate"
     }, 
     "CO": {
-        "value": 500
+        "value": 500,
+        "metadata": {
+            "unitCode": {
+                "value": "GP"
+            }
+        }
     }, 
     "temperature": {
         "value": 12.2
     }, 
     "NO": {
-        "value": 45
+        "value": 45,
+        "metadata": {
+            "unitCode": {
+                "value": "GQ"
+            }
+        }
     }, 
     "refPointOfInterest": {
         "value": "28079004-Pza.deEspanya"
@@ -168,10 +178,20 @@ mode (`options=keyValues`).
         "value": 0.64
     }, 
     "SO2": {
-        "value": 11
+        "value": 11,
+        "metadata": {
+            "unitCode": {
+                "value": "GQ"
+            }
+        }
     }, 
     "NOx": {
-        "value": 139
+        "value": 139,
+        "metadata": {
+            "unitCode": {
+                "value": "GQ"
+            }
+        }
     }, 
     "location": {
         "type": "geo:json", 
@@ -204,7 +224,12 @@ mode (`options=keyValues`).
         "value": 0
     }, 
     "NO2": {
-        "value": 69
+        "value": 69,
+        "metadata": {
+            "unitCode": {
+                "value": "GQ"
+            }
+        }
     }, 
     "CO_Level": {
         "value": "moderate"
