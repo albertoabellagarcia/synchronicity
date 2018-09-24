@@ -238,7 +238,7 @@ mode (`options=keyValues`).
 }
 ```
     
-## Examples of use 2 (?options=keyValues simplified representation for simplifying data consumers)
+## Examples of use 2 (?options=keyValues simplified representation for data consumers)
 
     {
       "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
