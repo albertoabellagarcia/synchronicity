@@ -134,7 +134,7 @@ Below is the description of the attribute to be used for option A/.
 a [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API implementation, you need to use the `keyValues`
 mode (`options=keyValues`).
 
-## Examples of use 1 (Normalized Format. Use it for Entity Creation)
+## Examples of use 1 (Normalized Format)
 
 ```json
 {
@@ -238,7 +238,7 @@ mode (`options=keyValues`).
 }
 ```
     
-## Examples of use 2 (?options=keyValues simplified representation)
+## Examples of use 2 (?options=keyValues simplified representation for simplifying data consumers)
 
     {
       "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
