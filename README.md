@@ -29,7 +29,7 @@ The following table shows the list of SynchroniCity data models. For each one is
 | --- | --- | --- | --- | --- |
 | Environment | [AirQualityObserved](./Environment/AirQualityObserved/doc/spec.md) | It represents an observation of air quality conditions at a certain place and time | GSMA | Approved |
 | Environment | [NoiseLevelObserved](./Environment/NoiseLevelObserved/doc/spec.md) | It represents an observation of those parameters that estimate noise pressure levels at a certain place and time | FIWARE | Approved |
-| PointOfInterest | [PointOfInterest](./PointOfInterest/PointOfInterest/doc/spec.md) | A harmonised geographic description of a Point of Interest | GSMA updated by SynchroniCity | Approved |
+| PointOfInterest | [PointOfInterest](./PointOfInterest/PointOfInterest/PointOfInterest/doc/spec.md) | A harmonised geographic description of a Point of Interest | GSMA updated by SynchroniCity | Approved |
 | Transportation | [BikeHireDockingStation](./Transportation/Bike/BikeHireDockingStation) | A bike hire docking station where subscribed users can hire and return a bike. | FIWARE | Approved |
 | Transportation | [TrafficFlowObserved](./Transportation/TrafficFlowObserved/) | An observation of traffic flow conditions at a certain place and time. | FIWARE | Approved |
 | Transportation | [EVChargingStation](./Transportation/EVChargingStation) | A public charging station supplying energy to electrical vehicles. | Developed by SynchroniCity | Under discussion |
