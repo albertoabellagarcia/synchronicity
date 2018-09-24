@@ -27,7 +27,7 @@ The following table shows the list of SynchroniCity data models. For each one is
 
 | **Vertical** | **Data Model** | **Description** | **Original Source** | **Approval Status** |
 | --- | --- | --- | --- | --- |
-| Environment | [AirQualityObserved](./Environment/AirQualityObserved) | It represents an observation of air quality conditions at a certain place and time | GSMA | Approved |
+| Environment | [AirQualityObserved](./Environment/AirQualityObserved/doc/spec.md) | It represents an observation of air quality conditions at a certain place and time | GSMA | Approved |
 | Environment | [NoiseLevelObserved](./Environment/NoiseLevelObserved) | It represents an observation of those parameters that estimate noise pressure levels at a certain place and time | FIWARE | Approved |
 | PointOfInterest | [PointOfInterest](./PointOfInterest/PointOfInterest) | A harmonised geographic description of a Point of Interest | GSMA updated by SynchroniCity | Approved |
 | Transportation | [BikeHireDockingStation](./Transportation/Bike/BikeHireDockingStation) | A bike hire docking station where subscribed users can hire and return a bike. | FIWARE | Approved |
