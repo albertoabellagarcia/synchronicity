@@ -133,8 +133,86 @@ Below is the description of the attribute to be used for option A/.
 **Note**: JSON Schemas only capture the NGSI simplified representation, this means that to test the JSON schema examples with
 a [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API implementation, you need to use the `keyValues`
 mode (`options=keyValues`).
+
+## Examples of use 1 (Normalized Format. Use it for Entity Creation)
+
+```json
+{
+    "dateObserved": {
+        "value": "2016-03-15T11:00:00/2016-03-15T12:00:00"
+    }, 
+    "airQualityLevel": {
+        "value": "moderate"
+    }, 
+    "CO": {
+        "value": 500
+    }, 
+    "temperature": {
+        "value": 12.2
+    }, 
+    "type": "AirQualityObserved", 
+    "NO": {
+        "value": 45
+    }, 
+    "refPointOfInterest": {
+        "value": "28079004-Pza.deEspanya"
+    }, 
+    "windDirection": {
+        "value": 186
+    }, 
+    "source": {
+        "value": "http://datos.madrid.es"
+    }, 
+    "windSpeed": {
+        "value": 0.64
+    }, 
+    "SO2": {
+        "value": 11
+    }, 
+    "NOx": {
+        "value": 139
+    }, 
+    "location": {
+        "type": "geo:json", 
+        "value": {
+            "type": "Point", 
+            "coordinates": [
+                -3.712247222222222, 
+                40.423852777777775
+            ]
+        }
+    }, 
+    "airQualityIndex": {
+        "value": 65
+    }, 
+    "address": {
+        "type": "PostalAddress", 
+        "value": {
+            "addressCountry": "ES", 
+            "addressLocality": "Madrid", 
+            "streetAddress": "Plaza de Espa\u00f1a"
+        }
+    }, 
+    "reliability": {
+        "value": 0.7
+    }, 
+    "relativeHumidity": {
+        "value": 0.54
+    }, 
+    "precipitation": {
+        "value": 0
+    }, 
+    "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00", 
+    "NO2": {
+        "value": 69
+    }, 
+    "CO_Level": {
+        "value": "moderate"
+    }
+}
+```
     
-## Examples of use
+## Examples of use 2 (?options=keyValues simplified representation)
 
     {
       "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
@@ -172,9 +250,3 @@ mode (`options=keyValues`).
 To get access to a public instance offering air quality observed data please have a look at the [GSMA's API Directory](http://apidirectory.connectedliving.gsma.com/api/air-quality-spain). 
 
 The instance described [here](https://docs.google.com/document/d/1lHP7XS-7TNzsxLa0bNFb-96JnJXh0ecIHS3-H0qMREg/edit?usp=sharing) has been set up by the FIWARE Community.
-
-What was the air quality observed today at noon UTC at the "Plaza de España" (Madrid) air quality station?
-
-```curl -S -H 'fiware-service:airquality' -H 'fiware-servicepath:/Spain_Madrid' -H 'x-auth-token:<my_token>'
-"http://130.206.118.244:1027/v2/entities?options=keyValues
-&q=dateObserved:2016-11-28T12:00;stationCode:'28079004'"```
