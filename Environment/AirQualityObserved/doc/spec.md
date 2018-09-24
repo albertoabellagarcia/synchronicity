@@ -166,6 +166,7 @@ mode (`options=keyValues`).
         }
     }, 
     "refPointOfInterest": {
+        "type": "Relationship",
         "value": "28079004-Pza.deEspanya"
     }, 
     "windDirection": {
