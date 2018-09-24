@@ -138,6 +138,8 @@ mode (`options=keyValues`).
 
 ```json
 {
+    "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
+    "type": "AirQualityObserved",
     "dateObserved": {
         "value": "2016-03-15T11:00:00/2016-03-15T12:00:00"
     }, 
@@ -150,7 +152,6 @@ mode (`options=keyValues`).
     "temperature": {
         "value": 12.2
     }, 
-    "type": "AirQualityObserved", 
     "NO": {
         "value": 45
     }, 
@@ -202,7 +203,6 @@ mode (`options=keyValues`).
     "precipitation": {
         "value": 0
     }, 
-    "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00", 
     "NO2": {
         "value": 69
     }, 
