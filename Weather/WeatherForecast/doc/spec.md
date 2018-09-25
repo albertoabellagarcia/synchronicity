@@ -251,10 +251,5 @@ To get access to a public instance offering weather forecast data please have a 
 The instance described [here](https://docs.google.com/document/d/1lHP7XS-7TNzsxLa0bNFb-96JnJXh0ecIHS3-H0qMREg/edit?usp=sharing)
 has been set up by the FIWARE Community.
 
-What is the weather forecast today in Valencia (Spain) from 17:00 UTC on?
-
-```curl -H 'fiware-service:weather' -H 'fiware-servicepath:/Spain' -H 'x-auth-token:<my_token>'
-http://130.206.118.244:1027/v2/entities?type=WeatherForecast&options=keyValues&q=address.addressLocality:Valencia;validFrom:2016-12-01T17
-```
 
 ## Open Issues
