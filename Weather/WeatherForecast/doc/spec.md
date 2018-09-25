@@ -205,8 +205,7 @@ mode (`options=keyValues`).
 
 ## Examples of use 2 (?options=keyValues simplified representation for data consumers)
 
-``
-
+```
 {
         "id": "Spain-WeatherForecast-46005_2016-12-01T18:00:00_2016-12-02T00:00:00",
         "type": "WeatherForecast",
@@ -243,7 +242,6 @@ mode (`options=keyValues`).
         "windDirection": null,
         "windSpeed": 0
     }
-
 ```
     
 ## Use it with a real service
