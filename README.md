@@ -38,7 +38,6 @@ The following table shows the list of SynchroniCity data models. For each one is
 | Transportation | [Vehicle](./Transportation/Vehicle/Vehicle/doc/spec.md) | Real time tracking of the vehicles that are used for public transportation (buses, trains, etc.)  | FIWARE | Approved |
 | Transportation | SAN Bus Datamodels | Static information about BUS | Developed by SynchroniCity | Under Discussion |
 | Transportation | Car Sharing Stations | Information about car sharing stations | Developed by SynchroniCity | Under discussion |
-| Transportation | Electric Charging Posts | Information about Electric Charging Posts | Developed by SynchroniCity | Under discussion |
 | Transportation | Restricted Areas | Description of restricted areas | Developed by SynchroniCity | Under discussion |
 | Weather | [WeatherObserved](.Weather/WeatherObserved) | An observation of weather conditions at a certain place and time. | GSMA - Extended by FIWARE | Approved |
 | Urban Mobility | [Urban Mobility](./UrbanMobility)  | The General Transit Feed Specification (GTFS) defines a common format for public transportation schedules and associated geographic information. | GTFS - NGSI mapping developed by SynchroniCity | Under discussion |
