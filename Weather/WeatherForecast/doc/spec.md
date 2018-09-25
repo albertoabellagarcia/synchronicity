@@ -126,9 +126,86 @@ the lack of support of Orion Context Broker for datetime intervals, it can be us
 a [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API implementation, you need to use the `keyValues`
 mode (`options=keyValues`).
 
-## Examples of use
+## Examples of use 1 (Normalized Format)
 
+```json
+{
+    "id": "Spain-WeatherForecast-46005_2016-12-01T18:00:00_2016-12-02T00:00:00",
+    "type": "WeatherForecast", 
+    "dayMinimum": {
+        "value": {
+            "feelsLikeTemperature": 11, 
+            "temperature": 11, 
+            "relativeHumidity": 0.7
+        }
+    }, 
+    "feelsLikeTemperature": {
+        "value": 12
+    }, 
+    "dataProvider": {
+        "value": "TEF"
+    }, 
+    "temperature": {
+        "value": 12
+    }, 
+    "validTo": {
+        "type": "DateTime", 
+        "value": "2016-12-01T23:00:00.00Z"
+    }, 
+    "weatherType": {
+        "value": "overcast"
+    }, 
+    "precipitationProbability": {
+        "value": 0.15
+    }, 
+    "dayMaximum": {
+        "value": {
+            "feelsLikeTemperature": 15, 
+            "temperature": 15, 
+            "relativeHumidity": 0.9
+        }
+    }, 
+    "source": {
+        "value": "http://www.aemet.es/xml/municipios/localidad_46250.xml"
+    }, 
+    "windSpeed": {
+        "value": 0
+    }, 
+    "validity": {
+        "value": "2016-12-01T18:00:00+01:00/2016-12-02T00:00:00+01:00"
+    }, 
+    "dateIssued": {
+        "type": "DateTime", 
+        "value": "2016-12-01T10:40:01.00Z"
+    }, 
+    "address": {
+        "type": "PostalAddress", 
+        "value": {
+            "addressCountry": "Spain", 
+            "postalCode": "46005", 
+            "addressLocality": "Valencia"
+        }
+    }, 
+    "dateRetrieved": {
+        "type": "DateTime", 
+        "value": "2016-12-01T12:57:24.00Z"
+    }, 
+    "validFrom": {
+        "type": "DateTime", 
+        "value": "2016-12-01T17:00:00.00Z"
+    }, 
+    "windDirection": {
+        "value": null
+    }, 
+    "relativeHumidity": {
+        "value": 0.85
+    }
+}
 ```
+
+## Examples of use 2 (?options=keyValues simplified representation for data consumers)
+
+``
 
 {
         "id": "Spain-WeatherForecast-46005_2016-12-01T18:00:00_2016-12-02T00:00:00",
