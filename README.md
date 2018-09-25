@@ -39,17 +39,17 @@ The following table shows the list of SynchroniCity data models. For each one is
 | Transportation | SAN Bus Datamodels | Static information about BUS | Developed by SynchroniCity | Under Discussion |
 | Transportation | Car Sharing Stations | Information about car sharing stations | Developed by SynchroniCity | Under discussion |
 | Transportation | Restricted Areas | Description of restricted areas | Developed by SynchroniCity | Under discussion |
-| Weather | [WeatherObserved](.Weather/WeatherObserved) | An observation of weather conditions at a certain place and time. | GSMA - Extended by FIWARE | Approved |
+| Weather | [WeatherObserved](./Weather/WeatherObserved/doc/spec.md) | An observation of weather conditions at a certain place and time. | GSMA - Extended by FIWARE | Approved |
+| Weather | [WeatherForecast](./Weather/WeatherForecast/doc/spec.md) | Harmonised description of a Weather Forecast.   | GSMA - Extended by FIWARE | Approved |
 | Urban Mobility | [Urban Mobility](./UrbanMobility)  | The General Transit Feed Specification (GTFS) defines a common format for public transportation schedules and associated geographic information. | GTFS - NGSI mapping developed by SynchroniCity | Under discussion |
 | Urban Mobility | [ArrivalEstimation](./UrbanMobility/ArrivalEstimation) | It captures the estimated arrival time of a public transport vehicle reaching a particular stop, whilst the vehicle is servicing a particular route. | Developed by SynchroniCity | Under discussion |
 | Urban Mobility | People counting |   | Developed by SynchroniCity | Under discussion |
 | Urban Mobility | Cycle counting |   | Developed by SynchroniCity | Under discussion |
 | Events | Event | Events happening in the city  | schema.org | Under discussion |
-| Parking | [ParkingSpot](./Parking/ParkingSpot) | An individual, usually monitored, parking spot/parking lot  | FIWARE | Approved |
-| Parking | [OffStreetParking](./Parking/OffStreetParking) | An offstreet parking site with explicit entries and exits  | FIWARE | Approved |
-| Parking | [OnStreetParking](./Parking/OnStreetParking) | An on street, free entry (but might be metered) parking zone which contains at least one or more adjacent parking spots  | FIWARE | Approved |
-| Parks &amp; Gardens | [GreenspaceRecord](./ParksAndGardens/GreenspaceRecord) | Harmonised description of the conditions recorded on a particular area or point inside a greenspace (flower bed, garden, etc.)  | FIWARE | Approved |
-| Weather | [WeatherForecast](./Weather/WeatherForecast) | Harmonised description of a Weather Forecast.   | GSMA - Extended by FIWARE | Approved |
+| Parking | [ParkingSpot](./Parking/ParkingSpot/doc/spec.md) | An individual, usually monitored, parking spot/parking lot  | FIWARE | Approved |
+| Parking | [OffStreetParking](./Parking/OffStreetParking/doc/spec.md) | An offstreet parking site with explicit entries and exits  | FIWARE | Approved |
+| Parking | [OnStreetParking](./Parking/OnStreetParking/doc/spec.md) | An on street, free entry (but might be metered) parking zone which contains at least one or more adjacent parking spots  | FIWARE | Approved |
+| Parks &amp; Gardens | [GreenspaceRecord](./ParksAndGardens/GreenspaceRecord/doc/spec.md) | Harmonised description of the conditions recorded on a particular area or point inside a greenspace (flower bed, garden, etc.)  | FIWARE | Approved |
 | Waste Management | [WasteContainerModel](./WasteManagement/WasteContainerModel) | Static properties of a waste container (big belly)  | FIWARE | Approved |
 
 
