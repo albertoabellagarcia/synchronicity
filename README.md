@@ -72,6 +72,11 @@ A `validate.sh` script is provided for convenience.
 
 **Note**: JSON Schemas only capture the NGSI simplified representation, this means that to test the JSON schema examples with a [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API implementation, you need to use the `keyValues` mode (`options=keyValues`).
 
+# Data models guidelines
+
+SynchroniCity provides a set of [guidelines](./guidelines.md) for defining new data models. Further information can be found in [SynchroniCity Deliverable D2.2](https://synchronicity-iot.eu/wp-content/uploads/2018/05/synchronicity_d2_2_guidelines_for_the_definition_of_oasc_shared_data_models.pdf)
+
+
 ## How to contribute
 
 Contributions should come in the form of pull requests. 
