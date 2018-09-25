@@ -110,7 +110,7 @@ specific information about this point of interest.
 
 ```
     
-## Examples of use 2 (?options=keyValues simplified representation for simplifying data consumers)
+## Examples of use 2 (?options=keyValues simplified representation for data consumers)
 
     {
         "id": "PointOfInterest-A-Concha-123456",
