@@ -80,7 +80,7 @@ See [https://developers.google.com/transit/gtfs/reference/#frequenciestxt](https
 
 ### Example of use 2 (?options=keyValues simplified representation for data consumers)
 
-``json
+```json
 {
   "id": "urn:ngsi-ld:gtfs:Frequency:Malaga:Linea1",
   "type": "gtfs:Frequency",
