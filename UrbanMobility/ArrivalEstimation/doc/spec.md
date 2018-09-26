@@ -76,7 +76,7 @@ whilst the vehicle is servicing a particular route.
 }
 ```
 
-### Examples of use 2 ()
+### Examples of use 2  (?options=keyValues simplified representation for data consumers)
 
 ```json
 {
