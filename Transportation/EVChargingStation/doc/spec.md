@@ -207,7 +207,7 @@ mode (`options=keyValues`).
 
 ## Examples of use 2 (?options=keyValues simplified representation for data consumers)
 
-``json
+```json
 {
    "id": "urn:ngsi-ld:EVChargingStation:ValladolI+D_Covaresa",
    "type": "EVChargingStation",
