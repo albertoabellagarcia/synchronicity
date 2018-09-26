@@ -25,6 +25,9 @@ def keyValues_2_normalized(entity):
     
     if key.startswith('ref'):
       out[key]['type'] = 'Relationship'
+      
+    if key.startswith('has'):
+      out[key]['type'] = 'Relationship'
     
   return out
 
