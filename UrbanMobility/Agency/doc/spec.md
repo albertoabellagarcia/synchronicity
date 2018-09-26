@@ -75,6 +75,8 @@ It shall point to the URL of the original GTFS feed used to generate this Entity
 }
 ```
 
+### Example of use 2 (?options=keyValues simplified representation for data consumers)
+
 ```json
 {
   "id": "urn:ngsi-ld:gtfs:Agency:Malaga_EMT",
