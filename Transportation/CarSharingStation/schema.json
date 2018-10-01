@@ -42,18 +42,16 @@
                "description": "NGSI Entity type"
             },
             "category": {
-               {
-                  "type": "array",
-                  "items": {
-                     "type": "string",
-					 "enum": [
-						"onStreet",
-						"offStreet"
-					 ]
-                  },
-                  "minItems": 1,
-                  "uniqueItems": true
-               },
+              "type": "array",
+              "items": {
+                 "type": "string",
+				 "enum": [
+					"onStreet",
+					"offStreet"
+				 ]
+              },
+              "minItems": 1,
+              "uniqueItems": true
             },
             "areaBordersMarked": {
                "type": "boolean"
