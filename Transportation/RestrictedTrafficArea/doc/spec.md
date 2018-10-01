@@ -42,7 +42,12 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
     + The semantics of the forxxx values is that the restricted traffic area can be crossed under particular condition.
     +	The semantics of the onlyxxx values is that the restricted traffic area can be crossed only on that particular condition.
     + Mandatory
-    
+	
++ `source` : A sequence of characters giving the source of the entity data.
+
+	+ Attribute type: [Text](http://schema.org/Text) or [URL](https://schema.org/URL)
+	+ Optional
+	
 + `notAllowedVehicleType` : Vehicle type(s) not allowed to cross the restricted traffic area.
     + Attribute type: List of [Text](http://schema.org/Text)
     + Allowed Values: The following list of values extends the one defined by *VehicleTypeEnum*,
