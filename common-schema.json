@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/common-schema.json",
+  "id": "https://fiware.github.io/dataModels/common-schema.json",
   "title": "Common definitions for Synchronicity Data Model",
   "definitions": {
     "EntityIdentifierType": {
