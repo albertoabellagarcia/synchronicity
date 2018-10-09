@@ -21,7 +21,9 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
 + `dateModified` : Last update timestamp of this entity
     + Attribute type: [DateTime](https://schema.org/DateTime)
     + Read-Only. Automatically generated.
-    + 
++   `source` : A sequence of characters giving the source of the entity data.
+    + Attribute type: Text or URL
+    + Optional    
 + `name` : Name given to the Car Sharing Station zone.
     + Normative References: [https://schema.org/name](https://schema.org/name)
     + Mandatory
