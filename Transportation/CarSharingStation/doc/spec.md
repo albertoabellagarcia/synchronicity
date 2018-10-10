@@ -31,7 +31,7 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
     + Attribute type: `geo:json`.
     + Normative References: [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
     + Mandatory if `address`is not defined. 
-    + 
+     
 + `address` : Registered Car Sharing Station civic address.
     + Normative References: [https://schema.org/address](https://schema.org/address)
     + Mandatory if location not defined
@@ -39,11 +39,12 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
 + `description` : Description about the Car Sharing Station. 
     + Normative References: [https://schema.org/description](https://schema.org/description)
     + Optional
-    + 
+    
 + `category`: Denotes whether the Car Sharing station has direct access from a road or with suitable and clearly marked access points.
     + Attribute type: [Text](http://schema.org/Text)
     + Allowed values:
-       + `onStreet`, `offStreet`
+        + `onStreet`, `offStreet`
+    + Mandatory
 + `areBordersMarked` : Denotes whether parking spots are delimited (with blank lines or similar) or not.
     +	Attribute type: Boolean
     +	Optional
