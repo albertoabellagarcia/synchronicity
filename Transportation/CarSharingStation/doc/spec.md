@@ -43,7 +43,7 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
 + `category`: Denotes whether the Car Sharing station has direct access from a road or with suitable and clearly marked access points.
     + Attribute type: [Text](http://schema.org/Text)
     + Allowed values:
-        + `onStreet`, `offStreet`
+        + `onStreet`, `offStreet`, `unknown`
     + Mandatory
 + `areBordersMarked` : Denotes whether parking spots are delimited (with blank lines or similar) or not.
     +	Attribute type: Boolean
