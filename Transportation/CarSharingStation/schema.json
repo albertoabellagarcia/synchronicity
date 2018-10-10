@@ -48,7 +48,8 @@
                  "type": "string",
 				 "enum": [
 					"onStreet",
-					"offStreet"
+					"offStreet",
+					"unknown"
 				 ]
               },
               "minItems": 1,
