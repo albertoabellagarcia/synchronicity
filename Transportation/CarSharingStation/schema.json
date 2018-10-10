@@ -8,7 +8,8 @@
       "id",
       "type",
       "name",
-      "providedVehicleType"
+      "providedVehicleType",
+      "category"
    ],
    "anyOf": [
       {
