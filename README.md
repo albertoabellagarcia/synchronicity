@@ -50,7 +50,8 @@ The following table shows the list of SynchroniCity data models. For each one is
 | Parking | [OffStreetParking](https://github.com/Fiware/dataModels/blob/master/specs/Parking/OffStreetParking/doc/spec.md) | An offstreet parking site with explicit entries and exits  | FIWARE | Approved |
 | Parking | [OnStreetParking](https://github.com/Fiware/dataModels/blob/master/specs/Parking/OnStreetParking/doc/spec.md) | An on street, free entry (but might be metered) parking zone which contains at least one or more adjacent parking spots  | FIWARE | Approved |
 | Parks &amp; Gardens | [GreenspaceRecord](https://github.com/Fiware/dataModels/blob/master/specs/ParksAndGardens/GreenspaceRecord/doc/spec.md) | Harmonised description of the conditions recorded on a particular area or point inside a greenspace (flower bed, garden, etc.)  | FIWARE | Approved |
-| Waste Management | [WasteContainerModel](https://github.com/Fiware/dataModels/blob/master/specs/WasteManagement/WasteContainerModel) | Static properties of a waste container (big belly)  | FIWARE | Approved |
+| Waste Management | [WasteContainer](https://github.com/Fiware/dataModels/blob/master/specs/WasteManagement/WasteContainer/doc/spec.md) | Waste Containers  | FIWARE | Approved |
+| Waste Management | [WasteContainerModel](https://github.com/Fiware/dataModels/blob/master/specs/WasteManagement/WasteContainerModel/doc/spec.md) | Static properties of a waste container (big belly)  | FIWARE | Approved |
 
 
 ## JSON Schemas
