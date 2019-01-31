@@ -74,7 +74,7 @@ This entity Type is intended to provide arrival estimation information that can 
     "value": "2018-12-19T10:14:00.238Z",
     "type": "DateTime"
   },
-  "stopTimeUpdate": {
+  "arrivalEstimationUpdate": {
     "value": [
       {
         "tripId": "1",
@@ -101,7 +101,7 @@ This entity Type is intended to provide arrival estimation information that can 
   "routeId": "route1",
   "stopId": "stop1",
   "lastUpdatedAt": "2018-12-19T10:14:00.238Z",
-  "stopTimeUpdate": [
+  "arrivalEstimationUpdate": [
     {
       "tripId": "1",
       "arrivalDelay": -2
