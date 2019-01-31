@@ -14,7 +14,7 @@
     "value": "2018-12-19T10:14:00.238Z",
     "type": "DateTime"
   },
-  "stopTimeUpdate": {
+  "arrivalEstimationUpdate": {
     "value": [
       {
         "tripId": "1",
