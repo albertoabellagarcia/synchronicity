@@ -1,0 +1,26 @@
+{
+   "id": "urn:ngsi-ld:RestrictedTrafficArea:Milan:RestrictedTrafficAreas:GeoJson:ds51-1"",
+   "type": "RestrictedTrafficArea",
+   "name": "Corso Concordia Area",
+   "category": [
+      "onlyPedestrian"
+   ],
+   "notAllowedVehicleType": [
+      "anyVehicle"
+   ],
+   "location": {
+      "coordinates": [
+         -4.747901,
+         41.618263
+      ],
+      "type": "Point"
+   },
+   "address": {
+      "streetAddress": "Corso Concordia",
+      "addressLocality": "Milan",
+      "addressCountry": "Italy"
+   },
+   "regulation": "Decree:54785/2004, Deliberation:425/2004",
+   "source": "https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl_zone_30_",
+   "validityEndDate": "2049-12-31T23:00:00.00Z"
+}

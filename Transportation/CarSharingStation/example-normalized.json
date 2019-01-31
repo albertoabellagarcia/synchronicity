@@ -1,0 +1,57 @@
+{
+   "id": "urn:ngsi-ld:CarSharingStation:Milan:GuidaMiCarSharing:GeoJson:ds79-1001",
+   "type": "CarSharingStation",
+   "name": {
+      "type": "string",
+      "value": "Loreto/Mercadante"
+   },
+   "category": {
+      "type": "array",
+      "value": [
+         "onStreet"
+      ]
+   },
+   "location": {
+      "type": "geo:json",
+      "value": {
+         "type": "Point",
+         "coordinates": [
+            9.214544,
+            45.483353
+         ]
+      }
+   },
+   "address": {
+      "type": "object",
+      "value": {
+         "addressCountry": "Italy",
+         "addressLocality": "MILANO",
+         "streetAddress": "Via Mercadante"
+      }
+   },
+   "totalSpotNumber": {
+      "type": "integer",
+      "value": 100
+   },
+   "totalSpotNumberForDisabledPeople": {
+      "type": "integer",
+      "value": 50
+   },
+   "parkingMode": {
+      "type": "array",
+      "value": [
+         "parallelParking"
+      ]
+   },
+   "providedVehicleType": {
+      "type": "array",
+      "value": [
+         "car",
+         "electricVehicle"
+      ]
+   },
+   "source": {
+      "type": "string",
+      "value": "http://dati.comune.milano.it/dataset/ds79_infogeo_aree_sosta_car_sharing_localizzazione_"
+   }
+}

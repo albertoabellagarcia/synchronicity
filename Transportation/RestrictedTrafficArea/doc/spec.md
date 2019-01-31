@@ -58,10 +58,10 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
     
 + `specialRestrictions`: Individual vehicle type not allowed to cross the restricted traffic area in a specific time slot.
 
-    +	Attribute type: List of [SpecialRestriction](https://gitlab.com/synchronicity-iot/synchronicity-data-models/tree/master/RestrictedTrafficArea/SpecialRestriction/schema.json)
+    +	Attribute type: List of references to entities of type [SpecialRestriction](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/Transportation/RestrictedTrafficArea/SpecialRestriction/schema.json)
     +	Optional
 + `restrictionExceptions`: Individual vehicle type allowed to cross the restricted traffic area in a specific time slot.
-    +	Attribute type: List of [RestrictionException](RestrictedTrafficArea/RestrictionException/RestrictionException/schema.json)
+    +	Attribute type: List of references to entities of type [RestrictionException](https://gitlab.com/synchronicity-iot/synchronicity-data-models/tree/master/Transportation/RestrictedTrafficArea/RestrictionException/schema.json)
     +	Optional
 + `restrictionValidityHours`: Days of the week and hours in which the traffic restriction is active.
     +	Normative references: http://schema.org/openingHours
@@ -77,7 +77,7 @@ DATEX II terms can be found at [http://datexbrowser.tamtamresearch.com/](http://
     +	Attribute type: DateTime
     +	Optional
 + `security` : Security aspects provided by this restricted traffic area.
-    +	Attributes: List of Text
+    +	Attributes: List of [Text](http://schema.org/Text)
     +	Allowed values: The following, some of them, defined by ParkingSecurityEnum of DATEX II version 2.3:
         +	(`patrolled`, `securityStaff`, `externalSecurity`, `cctv`, `dog`, `guard24hours`, `lighting`, `floodLight`, `fencesareaSeperatedFromSurroundings`, `bollard`, `camera`)
         + Any value not covered by the above enumeration and meaningful for the application.

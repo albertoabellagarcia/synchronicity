@@ -1,7 +1,7 @@
 {
    "$schema": "http://json-schema.org/schema#",
-   "id": "CarSharingStation/schema.json",
-   "title": "SynchroniCity - Car Sharing Station Model",
+   "id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/Transportation/CarSharingStation/schema.json",
+   "title": "SynchroniCity - Transportation / CarSharingStation",
    "description": "A site dedicated to car sharing with either direct access from a road or with suitable and clearly marked access points",
    "type": "object",
    "required": [
