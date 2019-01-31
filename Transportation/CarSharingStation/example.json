@@ -1,0 +1,30 @@
+{
+   "id": "urn:ngsi-ld:CarSharingStation:Milan:GuidaMiCarSharing:GeoJson:ds79-1001",
+   "type": "CarSharingStation",
+   "name": "Loreto/Mercadante",
+   "category": [
+      "onStreet"
+   ],
+   "location": {
+      "coordinates": [
+         9.214544,
+         45.483353
+      ],
+      "type": "Point"
+   },
+   "address": {
+      "streetAddress": "Via Mercadante",
+      "addressLocality": "Milano",
+      "addressCountry": "Italy"
+   },
+   "totalSpotNumber": 100,
+   "totalSpotNumberForDisabledPeople": 50,
+   "parkingMode": [
+      "parallelParking"
+   ],
+   "providedVehicleType": [
+        "car",
+        "electricVehicle"
+   ],
+   "source": ""http://dati.comune.milano.it/dataset/ds79_infogeo_aree_sosta_car_sharing_localizzazione_""
+}
