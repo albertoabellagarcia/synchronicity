@@ -1,0 +1,68 @@
+{
+	"id": "urn:ngsi-ld:GtfsTransitFeedFile:santander:TUS",
+	"type": "GtfsTransitFeedFile",
+	"description": {
+		"type": "Text",
+		"value": "Santander City Urban Transportation Service GTFS Feed File"
+	},
+	"publisher": {
+		"type": "StructuredValue",
+		"value": {
+			"name": "S.M.T.U. SANTANDER",
+			"publisherURL": "http://www.tusantander.es"
+		}
+	},
+	"source": {
+		"type": "Text",
+		"value": "http://datos.santander.es"
+	},
+	"dateCreated": {
+		"type": "DateTime",
+		"value": "2018-08-11T15:00:05.00Z"
+	},
+	"dateModified": {
+		"type": "DateTime",
+		"value": "2018-10-10T00:00:05.00Z"
+	},
+	"version": {
+		"type": "StructuredValue",
+		"value": {
+			"id": "TUS_Programacion_v1.1",
+			"dateReleased": "2018-10-10T00:00:00.00Z"
+		}
+	},
+	"referenceZone": {
+		"type": "Text",
+		"value": "Santander Municipality - 39075"
+	},
+	"startDate": {
+		"type": "DateTime",
+		"value": "2018-10-07T06:00:00.00Z"
+	},
+	"endDate": {
+		"type": "DateTime",
+		"value": "2019-06-29T23:59:59.00Z"
+	},
+	"feedFileURL": {
+		"type": "encodedURL",
+		"value": "http%3A%2F%2Fdatos.santander.es%2FproxyFileCKAN.php%3Fdataset%3D415f8091-64a1-4988-bec1-5117b93a68c5%26resource%3D92f4a4e9-6132-4666-b673-aee4524dee3e%26file%3Dprogramaciongtfs.zip",
+		"metadata": {
+			"encoding":{
+				"value": "encoded JavaScript URL"
+			}
+		}
+	},
+	"feedFileContent": {
+		"type": "Text",
+		"value": [
+			"agency.txt",
+			"calendar.txt",
+			"calendar_dates.txt",
+			"routes.txt",
+			"shapes.txt",
+			"stops_times.txt",
+			"stops.txt",
+			"trips.txt"
+		]
+	}
+}
