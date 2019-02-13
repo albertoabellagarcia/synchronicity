@@ -21,7 +21,7 @@ This entity Type is intended to provide arrival estimation information that can 
 
 + `stopId` : Identifier of the stop
     + Attribute type: [Text](https://schema.org/Text)
-    + Mandatory if `stopSequence` is not defined
+    + Mandatory.
 
 + `dateCreated` : Entity's creation timestamp.
     + Attribute type: [DateTime](https://schema.org/DateTime)
