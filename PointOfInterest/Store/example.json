@@ -1,0 +1,13 @@
+{
+  "id": "urn:ngsi-ld:Store:santander:COM4111",
+  "type": "Store",
+  "dateModified": "2018-06-01T11:19:54.00Z",
+  "name": "MARTA KAUFMANN",
+  "description": "Cosmetica natural fabricada en Santander.",
+  "location": {
+    "type": "Point",
+    "coordinates": [-3.8077562, 43.4628255]
+  },
+  "image": "http://www.comerciosantander.com/imagenes/Comercios/124F214A-CE55-5A33-A77D-679C0F848FFC.jpg/resize/50/100/",
+  "currenciesAccepted": ["EUR"]
+}
