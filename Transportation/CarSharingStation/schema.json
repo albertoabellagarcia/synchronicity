@@ -110,7 +110,7 @@
             "refParkingSpot": {
                "type": "array",
                "items": {
-                  "$ref": "common-schema.json#/definitions/EntityIdentifierType"
+                  "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/EntityIdentifierType"
                }
             },
             "areaServed": {
