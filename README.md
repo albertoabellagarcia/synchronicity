@@ -83,6 +83,40 @@ A `validate.sh` script is provided for convenience.
 SynchroniCity provides a set of [guidelines](./guidelines.md) for defining new data models. Further information can be found in [SynchroniCity Deliverable D2.2](https://synchronicity-iot.eu/wp-content/uploads/2018/05/synchronicity_d2_2_guidelines_for_the_definition_of_oasc_shared_data_models.pdf)
 
 
+## Entity ID definition guidelines
+Despite the Entity ID within any existing Context Entity is originally free text, [NGSI API](http://fiware.github.io/specifications/ngsiv2/stable) provides several features based on this parameter to assist NGSI operations. The following recommendations, which are not mandatory to be SynchroniCity compliant, represents a set of good practices to define entity IDs that improves the context queries, subscritions and discovery actions.
+
+These guidelines are based on the incoming [NGSI-LD](https://www.etsi.org/images/files/ETSIWhitePapers/etsi_wp31_NGSI_API.pdf) standard and are used by several SynchoniCity Reference Zones' instances. According to them, the Entity ID would be a text string composed by several fields separated by colons.
+- Three first fields represent the NGSI-LD standard and identifies the entity as a NGSI-LD compliant entity:
+
+ - **`urn`** is always set to "urn" and identies the entity ID as an urn.
+ - **`ngsi-ld`** represents an ngsi-ld entity when set to "ngsi-ld".
+ - **`entity-Type`** matches the **type** attribute of the entity.
+
+
+- Next optional fields are proposed by SynchroniCity and are arranged to organise the entities according their deployment and functionaly:
+  - **site**  can represent a RZ, City or area that includes several different IoT deployments, services or apps (e.g., Porto, Milano, Santander, Aarhus, Andorra ... ).
+  - **service** represents a smart city service/application domain, for example parking, waste management, environmental etc.
+  - **group** can be used for grouping assets under the same service and/or provider (so it can be used to identify different IoT providers). It is responsibility of OS sites to maintain proper group keys.
+  - **entityName** The Entity​ /​ Device identifier which should be unique at the corresponding **site**, **service** and **group**.
+
+***Entities’ ID definition***
+
+`urn` | `ngsi-ld` | `entity-Type` | **site** | **service** | **group** | **entityName** |
+---:|:---:|:---:|:---:|:---:|:---:|:---:|
+*urn* | *ngsi-ld* | *OnStreetParking*| *santander* |*parking* | *onStreet* | *StaLuciaEast* 
+*urn* | *ngsi-ld* | *ParkingSpot*| *santander* |*parking* | *parkingSpot* | *3601* 
+*urn* | *ngsi-ld* | *TrafficFlowObserved*| *santander* |*traffic* | *TrafficFlowObserved* | *1001* 
+
+***Entity IDs examples***
+
+*`"urn:ngsi-ld:OnStreetParking:santander:parking:onStreet:StaLuciaEast"`*
+
+*`"urn:ngsi-ld:ParkingSpot:santander:parking:parkingSpot:3601"`*
+
+*`"urn:ngsi-ld:TrafficFlowObserved:santander:traffic:TrafficFlowObserved:1001"`*
+
+
 ## How to contribute
 
 Contributions should come in the form of pull requests. 
