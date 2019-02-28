@@ -1,0 +1,36 @@
+{
+  "id": "urn:ngsi-ld:PublicTransportStop:santander:busStop:463",
+  "type": "PublicTransportStop",
+  "dateModified": {
+    "type": "ISO8601",
+    "value": "2018-09-25T08:32:26.00Z"
+  },
+  "address": {
+    "type": "StructuredValue",
+    "value": {
+      "streetAddress": "C/ La Pereda 14",
+      "addressLocality": "Santander",
+      "addressRegion": "Cantabria",
+      "addressCountry": "Spain"
+    }
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [-3.804648385,43.478053126]
+    }
+  },  
+  "name": {
+    "type": "Text",
+    "value": "La Pereda 14"
+  },
+  "shortStopCode": {
+    "type": "Text",
+    "value": "463"
+  },
+  "transportationType": {
+    "type": "StructuredValue",
+    "value": [3]
+  }
+}
