@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "RoadAccident/schema.json",
+  "title": "SynchroniCity - RoadAccident schema",
+  "description": "A road accident description with causes and aftermath",
+  "type": "object",
+  "allOf": [
+    {
+      "anyOf": [
+        {
+          "required": [
+            "location"
+          ]
+        },
+        {
+          "required": [
+            "address"
+          ]
+        }
+      ]
+    },
+    {
+      "anyOf": [
+        {
+          "required": [
+            "accidentDate"
+          ]
+        },
+        {
+          "required": [
+            "accidentStatisticalDate"
+          ]
+        }
+      ]
+    },
+    {
+      "required": [
+        "id",
+        "type",
+        "status"
+      ]
+    },
+    {
+      "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "type": {
+        "type": "string",
+        "enum": [
+          "RoadAccident"
+        ],
+        "description": "NGSI Entity type"
+      },
+      "localId": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "onGoing",
+          "solved",
+          "archived"
+        ],
+        "description": "Status of the Road Accident"
+      },
+      "accidentDate": {
+        "type": "string",
+        "format": "date-time"      
+      },
+      "accidentStatisticalDate": {
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer"
+          },
+          "quarter": {
+            "type": "integer"
+          },
+          "weekday": {
+            "type": "string",
+            "enum": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "description": "Week days"
+          },
+          "hour": {
+            "type": "integer"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "year",
+          "quarter",
+          "weekday",
+          "hour"
+        ]
+      },
+      "accidentType": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        },
+        "description": "Accident Type"
+      },
+      "accidentDescription": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "weatherConditions": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        }
+      },
+      "roadSurface": {
+        "type": "integer",
+        "description": "Road Conditions"
+      },
+      "roadPaving": {
+        "type": "integer",
+        "description": "Road paving"
+      },
+      "accidentLocation": {
+        "type": "integer"
+      },
+      "roadClass": {
+        "type": "string"
+      },
+      "roadIntersection": {
+        "type": "integer"
+      },
+      "roadTrunk": {
+        "type": "integer"
+      },
+      "signRoad": {
+        "type": "integer",
+        "description": "Type of sign road"
+      },
+      "pedestriansInvolved": {
+        "type": "boolean"
+      },
+      "vehiclesInvolved": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        },
+        "additionalItems": false
+      },
+      "weakestSubject": {
+        "type": "integer"
+      },
+      "numPassengersInjured": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "numPassengersDead": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "numPedestrianInjured": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "numPedestrianDead": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "totalInjured": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "totalDeadPeopleWithin30Days": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "totalDeadPeopleWithin24Hours": {
+        "type": "integer",
+        "minimum": 0
+        }
+    }
+  ]
+}
