@@ -9,7 +9,7 @@
     "type",
     "serviceName",
     "serviceStatus",
-    "lastTicketIssued ",
+    "lastTicketIssued",
     "ticketServed"
   ],
   "anyOf": [
@@ -36,7 +36,7 @@
         "type": {
           "type": "string",
           "enum": [
-            "CounterQueue"
+            "QueueMonitor"
           ],
           "description": "NGSI Entity type"
         },
