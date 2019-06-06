@@ -76,7 +76,7 @@
         "lastTicketIssued": {
           "type": "integer"
         },
-        "lastITicketIssuedLabel": {
+        "lastTicketIssuedLabel": {
           "type": "string"
         },
         "ticketServed": {
