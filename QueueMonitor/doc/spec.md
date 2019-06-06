@@ -1,4 +1,4 @@
-# Counter Queue
+# Queue Monitor
 
 ## Description
 The proposed data model is intended to describe an office counter queue system on a daily run.
@@ -13,7 +13,7 @@ Ticket numbering should be set up to 0 at the beginning of each service running 
 
 + `id` : Unique identifier. 
 
-+ `type` : Entity type. It must be equal to `CounterQueue`.
++ `type` : Entity type. It must be equal to `QueueMonitor`.
 
 + `dateCreated` : Entity's creation timestamp
     + Attribute type: [DateTime](https://schema.org/DateTime)

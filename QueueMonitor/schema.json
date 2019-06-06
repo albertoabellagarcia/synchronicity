@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "CounterQueue/schema.json",
-  "title": "SynchroniCity - CounterQueue schema",
+  "$id": "QueueMonitor/schema.json",
+  "title": "SynchroniCity - QueueMonitor schema",
   "description": "An office counter queue system on a daily run",
   "type": "object",
   "required": [
@@ -9,7 +9,7 @@
     "type",
     "serviceName",
     "serviceStatus",
-    "lastTicketIssued ",
+    "lastTicketIssued",
     "ticketServed"
   ],
   "anyOf": [
@@ -36,7 +36,7 @@
         "type": {
           "type": "string",
           "enum": [
-            "CounterQueue"
+            "QueueMonitor"
           ],
           "description": "NGSI Entity type"
         },
