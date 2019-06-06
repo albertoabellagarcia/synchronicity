@@ -79,7 +79,7 @@ Ticket numbering should be set up to 0 at the beginning of each service running 
     + Attribute type: integer
     + Mandatory
 
-+ `lastITicketIssuedLabel` : label associated to the `lastTicketIssued`
++ `lastTicketIssuedLabel` : label associated to the `lastTicketIssued`
     + Attribute type: [Text](http://schema.org/Text)
     + Examples: “A32”, “B41”...
     + Optional
