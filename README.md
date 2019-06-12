@@ -73,6 +73,7 @@ The following table shows the list of SynchroniCity data models. For each one is
 | Waste Management | [WasteContainerModel](https://github.com/Fiware/dataModels/blob/master/specs/WasteManagement/WasteContainerModel/doc/spec.md) | Static properties of a waste container (big belly)  | FIWARE | Approved |
 | Device | [Device](https://github.com/Fiware/dataModels/blob/master/specs/Device/Device/doc/spec.md) | An apparatus (hardware + software + firmware) intended to accomplish a particular task (sensing the environment, actuating, etc.).  | FIWARE | Approved |
 | QueueMonitor | [QueueMonitor](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/QueueMonitor/doc/spec.md) | This data model describes a single queue line for a single service provided by an office.  | Developed by SynchroniCity | Approved |
+| Energy | [ThreePhaseMultiCircuitAcMeasurement](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/Energy/ThreePhaseMultiCircuitAcMeasurement/doc/spec.md) | Represents a measurement from an electrical sub-metering system that monitors three-phase alternating current across multiple circuits.  | Developed by SynchroniCity | Approved |
 
 ## JSON Schemas
 
