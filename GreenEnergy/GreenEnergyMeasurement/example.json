@@ -1,0 +1,7 @@
+{
+  "id": "urn:ngsi-ld:GreenEnergyMeasurement:santander:GreenEnergyMeasurement:Generator:a34f24b",
+  "type": "GreenEnergyMeasurement",
+  "solarPowerGenerated":1.2,
+  "eolicPowerGenerated":3,
+  "refGreenEnergyGenerator":"urn:ngsi-ld:GreenEnergyGenerator:santander:GreenEnergy:greenEnergyGenerator:0001"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "urn:ngsi-ld:GreenEnergyGenerator:santander:GreenEnergy:greenEnergyGenerator:0001",
+  "type": "GreenEnergyGenerator",
+  "status":"working",
+  "location": {
+    "type": "Point",
+    "coordinates": [-3.80356167695194, 43.46296641666926]
+  },
+  "generationSources":["solar","eolic"],
+  "name": "generator solar and eolic #9e46d",
+  "description": "mixed generator model ~004 with maximum power 22w",
+  "selfConsumption":true,
+  "redistribution":false,
+  "maxSolarPowerGenerated": 15,
+  "maxEolicPowerGenerated": 7
+}
