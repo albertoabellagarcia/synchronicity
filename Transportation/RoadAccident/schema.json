@@ -6,47 +6,13 @@
   "type": "object",
   "allOf": [
     {
-      "anyOf": [
-        {
-          "required": [
-            "location"
-          ]
-        },
-        {
-          "required": [
-            "address"
-          ]
-        }
-      ]
-    },
-    {
-      "anyOf": [
-        {
-          "required": [
-            "accidentDate"
-          ]
-        },
-        {
-          "required": [
-            "accidentStatisticalDate"
-          ]
-        }
-      ]
-    },
-    {
-      "required": [
-        "id",
-        "type",
-        "status"
-      ]
-    },
-    {
       "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/GSMA-Commons"
     },
     {
       "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/Location-Commons"
     },
     {
+      "properties": {
       "type": {
         "type": "string",
         "enum": [
@@ -187,7 +153,20 @@
       "totalDeadPeopleWithin24Hours": {
         "type": "integer",
         "minimum": 0
-        }
+      }
     }
+  }],
+  "required": [
+    "id",
+    "type",
+    "status"
+  ],
+  "anyOf": [
+    {"required": ["location"]},
+    {"required": ["address"]}
+  ],
+  "anyOf": [
+    {"required": ["accidentDate"]},
+    {"required": ["accidentStatisticalDate"]}
   ]
 }
