@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/schema#",
-	"id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/fix_gtfs_fiware/UrbanMobility/GtfsTransitFeedFile/schema.json",
+	"$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/UrbanMobility/GtfsTransitFeedFile/schema.json",
 	"title": "GTFS Transit File Pointer Schema  ",
 	"description": "Pointer to GTFS Transit File",
 	"type": "object",
