@@ -67,6 +67,10 @@ Ticket numbering should be set up to 0 at the beginning of each service running 
     + Example: eg. “service suspended from 11:00am to 14:30pm”
     + Optional
 
++ `scheduleTime` : scheduled working time of the service.
+    + Attribute type: [Text](http://schema.org/Text)
+    + Optional
+
 + `queueLine` : description about the queue line associated to the service. The same office counter could serve different queue lines with different priority level.
     + Attribute type: [Text](http://schema.org/Text)
     + Optional
