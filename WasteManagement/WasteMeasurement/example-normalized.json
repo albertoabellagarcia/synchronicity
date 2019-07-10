@@ -1,0 +1,17 @@
+{
+  "id": "wastemeasurement:Brooklands",
+  "type": "WasteMeasurement",
+  "areaServed": "Brooklands",
+  "dateMeasurement": {
+    "value": "2016-06-21"
+  },
+  "wasteWeight": {
+    "value": 2
+  },
+  "recycleWeight": {
+    "value": 1.5
+  },
+  "compostWeight": {
+    "value": 0.5
+  }
+}
