@@ -1,7 +1,9 @@
 {
   "id": "wastemeasurement:Brooklands",
   "type": "WasteMeasurement",
-  "areaServed": "Brooklands",
+  "areaServed": {
+    "value": "Brooklands"
+  },
   "dateMeasurement": {
     "value": "2016-06-21"
   },
