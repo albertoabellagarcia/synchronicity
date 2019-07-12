@@ -41,7 +41,6 @@ A JSON Schema corresponding to this data model can be found
                 production environmments where the attribute type is equal to
                 the `ISO8601` string. If so, it must be considered as a synonym
                 of `DateTime`.
-    -   Allowed values: Interval \[0,1\].
 	-   Default Unit: Tonnes.
 	-   See also: [https://schema.org/weight](https://schema.org/weight)
     -   Optional
@@ -62,7 +61,6 @@ A JSON Schema corresponding to this data model can be found
                 production environmments where the attribute type is equal to
                 the `ISO8601` string. If so, it must be considered as a synonym
                 of `DateTime`.
-    -   Allowed values: Interval \[0,1\].
 	-   Default Unit: Tonnes.
 	-   See also: [https://schema.org/weight](https://schema.org/weight)
     -   Optional
@@ -83,14 +81,12 @@ A JSON Schema corresponding to this data model can be found
                 production environmments where the attribute type is equal to
                 the `ISO8601` string. If so, it must be considered as a synonym
                 of `DateTime`.
-    -   Allowed values: Interval \[0,1\].
 	-   Default Unit: Tonnes.
 	-   See also: [https://schema.org/weight](https://schema.org/weight)
     -   Optional
 
 -   `dateMeasurement` : Date for which the measurement corresponds.
-
-    -   Attribute Type: [Date](http://schema.org/Date)
+    -   Attribute Type: [DateTime](http://schema.org/DateTime)
     -   Optional
 
 **Note**: JSON Schemas are intended to capture the data type and associated
@@ -147,8 +143,8 @@ Sample uses the NGSI-LD representation
 
 ```json
 {
-    "id": "urn:ngsi-ld:WasteContainer:wastecontainer:Fleming:12a",
-    "type": "WasteContainer",
+    "id": "urn:ngsi-ld:WasteMeasurement:Brooklands",
+    "type": "WasteMeasurement",
     "areaServed": {
         "type": "Property",
         "value": "Brooklands"
