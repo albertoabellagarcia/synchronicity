@@ -5,11 +5,11 @@
         "type": "Property",
         "value": "Brooklands"
     },
-    "dateMeasurement": {
+    "dateObserved": {
         "type": "Property",
         "value": {
-            "@type": "Date",
-            "@value": "2016-06-21"
+            "type": "Date",
+            "value": "2016-06-21"
         }
     },
     "wasteWeight": {

@@ -33,7 +33,7 @@
           "type": "number",
           "minimum": 0
         },
-        "dateMeasurement": {
+        "dateObserved": {
           "type": "string",
           "format": "date-time"
         },

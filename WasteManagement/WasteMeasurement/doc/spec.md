@@ -85,7 +85,7 @@ A JSON Schema corresponding to this data model can be found
 	-   See also: [https://schema.org/weight](https://schema.org/weight)
     -   Optional
 
--   `dateMeasurement` : Date for which the measurement corresponds.
+-   `dateObserved` : Date for which the measurement corresponds.
     -   Attribute Type: [DateTime](http://schema.org/DateTime)
     -   Optional
 
@@ -101,12 +101,12 @@ Normalized NGSI response
 
 ```json
 {
-  "id": "wastemeasurement:Brooklands",
+  "id": "wastemeasurement:Manchester",
   "type": "WasteMeasurement",
   "areaServed": {
     "value": "Brooklands"
   },
-  "dateMeasurement": {
+  "dateObserved": {
     "value": "2016-06-21"
   },
   "wasteWeight": {
@@ -127,13 +127,13 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 
 ```json
 {
-  "id": "wastemeasurement:Brooklands",
+  "id": "wastemeasurement:Manchester",
   "type": "WasteMeasurement",
   "areaServed": "Brooklands", 
   "wasteWeight" : 2,
   "recycleWeight" : 1.5,
   "compostWeight" : 0.5,
-  "dateMeasurement": "2016-06-21"
+  "dateObserved": "2016-06-21"
 }
 ```
 
@@ -143,17 +143,17 @@ Sample uses the NGSI-LD representation
 
 ```json
 {
-    "id": "urn:ngsi-ld:WasteMeasurement:Brooklands",
+    "id": "urn:ngsi-ld:WasteMeasurement:Manchester",
     "type": "WasteMeasurement",
     "areaServed": {
         "type": "Property",
         "value": "Brooklands"
     },
-    "dateMeasurement": {
+    "dateObserved": {
         "type": "Property",
         "value": {
-            "@type": "Date",
-            "@value": "2016-06-21"
+            "type": "Date",
+            "value": "2016-06-21"
         }
     },
     "wasteWeight": {
