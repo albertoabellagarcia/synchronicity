@@ -1,6 +1,6 @@
 {
-    "id": "urn:ngsi-ld:WasteContainer:wastecontainer:Fleming:12a",
-    "type": "WasteContainer",
+    "id": "urn:ngsi-ld:WasteMeasurement:Manchester",
+    "type": "WasteMeasurement",
     "areaServed": {
         "type": "Property",
         "value": "Brooklands"
