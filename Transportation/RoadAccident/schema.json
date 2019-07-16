@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "RoadAccident/schema.json",
+  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Transportation/RoadAccident/schema.json",
   "title": "SynchroniCity - RoadAccident schema",
   "description": "A road accident description with causes and aftermath",
   "type": "object",

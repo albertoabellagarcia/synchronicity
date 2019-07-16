@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/schema#",
-	"id": "https://fiware.github.io/dataModels/specs/Transportation/EVChargingStation/schema.json",
+	"$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Transportation/EVChargingStation/schema.json",
 	"title": "FIWARE - Transportation / EV Charging Station",
 	"description": "EV Charging Station",
 	"type": "object",
@@ -39,26 +39,26 @@
 				"allowedVehicleType": {
 					"type": "array",
 					"minItems": 1,
-				  "uniqueItems": true,
+          "uniqueItems": true,
 					"items": {
 						"type": "string",
 						"enum": [
-										 "bicycle", "bus", "car", "caravan",
-										 "motorcycle", "motorscooter", "truck"
+							"bicycle", "bus", "car", "caravan",
+							"motorcycle", "motorscooter", "truck"
 						]
 					}
 				},
 				"socketType": {
 					"type": "array",
 					"minItems": 1,
-				  "uniqueItems": true,
+          "uniqueItems": true,
 					"items": {
 						"type": "string",
 						"enum": [
-										 "Type2", "CHAdeMO", "CCS/SAE", "Type3",
-										 "Tesla", "J-1772", "Wall_Euro",
-										 "Caravan_Mains_Socket", "Dual_J-1772", "Dual_CHAdeMO",
-										 "Mennekes", "Dual_Mennekes", "Other"
+							"Type2", "CHAdeMO", "CCS/SAE", "Type3",
+							"Tesla", "J-1772", "Wall_Euro",
+							"Caravan_Mains_Socket", "Dual_J-1772", "Dual_CHAdeMO",
+							"Mennekes", "Dual_Mennekes", "Other"
 						]
 					}
 				},
@@ -112,17 +112,15 @@
 				},
 				"amperage": {
 					"type": "number",
-					"minimum": 0,
-					"exclusiveMinimum": true
+					"exclusiveMinimum": 0
 				},
 				"voltage": {
 					"type": "number",
-					"minimum": 0,
-					"exclusiveMinimum": true
+					"exclusiveMinimum": 0
 				},
 				"chargeType": {
-				  "type": "array",
-				  "items": {
+          "type": "array",
+          "items": {
 					  "type": "string",
 					  "enum": [
 						  "flat",

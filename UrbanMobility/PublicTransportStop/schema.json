@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "UrbanMobility/PublicTransportStop/schema.json",
+  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/UrbanMobility/PublicTransportStop/schema.json",
   "title": "SynchroniCity - Urban mobility PublicTransportStop schema",
   "description": "A generic public transport stop",
   "type": "object",

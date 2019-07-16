@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "id": "PointOfInterest/Store/schema.json",
+  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/PointOfInterest/Store/schema.json",
   "title": "SynchroniCity - Point of Interest Store schema",
   "description": "A point of interest store",
   "type": "object",
