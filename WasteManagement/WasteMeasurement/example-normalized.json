@@ -1,0 +1,19 @@
+{
+  "id": "wastemeasurement:Manchester",
+  "type": "WasteMeasurement",
+  "areaServed": {
+    "value": "Brooklands"
+  },
+  "dateObserved": {
+    "value": "2016-06-21"
+  },
+  "wasteWeight": {
+    "value": 2
+  },
+  "recycleWeight": {
+    "value": 1.5
+  },
+  "compostWeight": {
+    "value": 0.5
+  }
+}

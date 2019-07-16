@@ -1,0 +1,31 @@
+{
+    "id": "urn:ngsi-ld:WasteMeasurement:Manchester",
+    "type": "WasteMeasurement",
+    "areaServed": {
+        "type": "Property",
+        "value": "Brooklands"
+    },
+    "dateObserved": {
+        "type": "Property",
+        "value": {
+            "type": "Date",
+            "value": "2016-06-21"
+        }
+    },
+    "wasteWeight": {
+        "type": "Property",
+        "value": 2
+    },
+	"recycleWeight": {
+        "type": "Property",
+        "value": 1.5
+    },
+	"compostWeight": {
+        "type": "Property",
+        "value": 0.5
+    },
+    "@context": [
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "https://schema.lab.fiware.org/ld/context"
+    ]
+}

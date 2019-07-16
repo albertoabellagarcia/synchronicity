@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://fiware.github.io/dataModels/specs/WasteManagement/WasteMeasurement/schema.json",
+  "title": "FIWARE - Waste Management / Waste Measurement",
+  "description": "Waste measurement of an area",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/PhysicalObject-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["WasteMeasurement"],
+          "description": "NGSI Entity type"
+        },
+		"areaServed": {
+          "type": "string"
+        },
+        "wasteWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+		"recycleWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+		"compostWeight": {
+          "type": "number",
+          "minimum": 0
+        },
+        "dateObserved": {
+          "type": "string",
+          "format": "date-time"
+        },
+      }
+    }
+  ],
+  "required": ["id", "type"]
+}
