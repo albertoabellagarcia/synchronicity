@@ -36,7 +36,7 @@ There is a [Python script](https://github.com/FIWARE/dataModels/blob/master/tool
 that facilitates the transformation from an NGSIv2 JSON representation to an NGSI-LD representation. 
 
 ```
-python3 normalized2LD.py example-normalized.json example-normalized-ld.jsonld https://gitlab.
+python3 normalized2LD.py example-normalized.json example-normalized-ld.jsonld https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/synchronicity-data-models-context.jsonld
 ```
 
 Please observe that the URI where the SynchroniCity @context is stored is provided. 
