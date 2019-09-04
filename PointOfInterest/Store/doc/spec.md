@@ -144,4 +144,49 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 }
 ```
 
+### LD Example
+
+Sample uses the NGSI-LD representation. 
+
+
+```json
+{
+    "id": "urn:ngsi-ld:Store:santander:COM4111",
+    "type": "Store",
+    "modifiedAt": "2018-06-01T11:19:54.00Z",
+    "name": {
+        "type": "Property",
+        "value": "MARTA KAUFMANN"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Cosmetica natural fabricada en Santander."
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                -3.8077562,
+                43.4628255
+            ]
+        }
+    },
+    "image": {
+        "type": "Property",
+        "value": "http://www.comerciosantander.com/imagenes/Comercios/124F214A-CE55-5A33-A77D-679C0F848FFC.jpg/resize/50/100/"
+    },
+    "currenciesAccepted": {
+        "type": "Property",
+        "value": [
+            "EUR"
+        ]
+    },
+    "@context": [
+        "https://example.org/context.jsonld",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}
+```
+
 ## Open issues
