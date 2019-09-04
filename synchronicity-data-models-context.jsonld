@@ -1,6 +1,5 @@
 {
     "@context": {
-        "id": "https://uri.synchronicity-iot.eu/ns/dataModels#id",
         "dateCreated": {
             "@type": "http://uri.etsi.org/ngsi-ld/DateTime",
             "@id": "https://uri.synchronicity-iot.eu/ns/dataModels#dateCreated"
@@ -11,7 +10,7 @@
         },
         "source": "https://uri.synchronicity-iot.eu/ns/dataModels#source",
         "name": "https://uri.etsi.org/ngsi-ld/name",
-        "alternateName": "https://uri.synchronicity-iot.eu/ns/dataModels#alternateName",
+        "alternateName": "https://schema.org/alternateName",
         "description": "https://uri.etsi.org/ngsi-ld/description",
         "dataProvider": "https://uri.synchronicity-iot.eu/ns/dataModels#dataProvider",
         "owner": "https://uri.synchronicity-iot.eu/ns/dataModels#owner",
