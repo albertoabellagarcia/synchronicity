@@ -141,10 +141,12 @@ Contributions should come in the form of pull requests.
 New data models should be added under a folder structured as follows:
   - `NewModel/`
     - `doc/`
-      - `spec.md`: A data model description based on the [data model template](datamodel_template.md), e.g. [spec.md of WeatherObserved](/Weather/WeatherObserved/doc/spec.md).
-    - `README.md`: A summary file (as an extract from the spec file), e.g. [README.md of WeatherObserved](/Weather/WeatherObserved/README.md)
-    - `schema.json`: The JSON Schema definition, e.g. [schema.json of WeatherObserved](/Weather/WeatherObserved/schema.json)
-    - `example.json`: One or more JSON example file, e.g. [example.json of WeatherObserved](specs/Weather/WeatherObserved/example.json)
+      - `spec.md`: A data model description based on the [data model template](datamodel_template.md), e.g. [spec.md of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/WeatherObserved/doc/spec.md).
+    - `README.md`: A summary file (as an extract from the spec file), e.g. [README.md of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/README.md)
+    - `schema.json`: The JSON Schema definition, e.g. [schema.json of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/WeatherObserved/schema.json)
+    - `example.json`: One or more JSON example file, e.g. [example.json of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/WeatherObserved/example.json)
+    - `example-normalized.json`: One or more JSON example file in NGSI v2 normalized format, e.g. [example-normalized.json of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/WeatherObserved/example-normalized.json)
+    - `example-normalized-ld.jsonld`: One or more JSON example file in **NGSI-LD** normalized format, e.g. [example-normalized-ld.jsonld of WeatherObserved](https://github.com/FIWARE/dataModels/specs/Weather/WeatherObserved/example-normalized-ld.jsonld)
 
 The name of the folder should match the entity type used in the JSON Schema (e.g. `NewModel`). For data models including more entities, a hierarchical folder should be used. The father folder can include common JSON schemas shared among the entities. e.g.:
 
@@ -159,12 +161,16 @@ The name of the folder should match the entity type used in the JSON Schema (e.g
       - `README.md`
       - `schema.json`
       - `example.json`
+      - `example-normalized.json`
+      - `example-normalized-ld.jsonld`
     - `NewModelEntityTwo/`
       - `doc/`
         - `spec.md`
       - `README.md`
       - `schema.json`
       - `example.json`
+      - `example-normalized.json`
+      - `example-normalized-ld.jsonld`
 
 ## Validator
 SynchroniCity developed a tool to validate the data models. Code and documentation can be found here: https://gitlab.com/synchronicity-iot/rz-instance-validator
