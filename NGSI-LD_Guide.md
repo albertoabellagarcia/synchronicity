@@ -19,7 +19,7 @@ Folder can be root folder of the SynchroniCity Data Models.
 
 Such Python script processes all the JSON Schemas and will generate a new 
 JSON-LD @context including all the terms defined in those schemas 
-mapped to the URI ` https://uri.synchronicity-iot.eu/dataModels#`
+mapped to the URI `https://uri.synchronicity-iot.eu/ns/dataModels#`
 
 Note: SynchroniCity shall consider hosting information at such URI the same 
 way as FIWARE does at [https://uri.fiware.org/ns/dataModels](https://uri.fiware.org/ns/dataModels) 
