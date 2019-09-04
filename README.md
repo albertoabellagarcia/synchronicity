@@ -9,7 +9,8 @@ Such datasets are exposed through
 the [SynchroniCity Context Management API](https://synchronicityiot.docs.apiary.io/#reference/context-management-api) 
 based on [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API (query).
 The Data Models have also been expressed using the ETSI standard 
-[NGSI-LD](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf)
+[NGSI-LD](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf). 
+There is a [guide](NGSI-LD_Guide.md) to guide SynchroniCity partners in the usage of NGSI-LD. 
 
 The baseline of the OASC SynchroniCity data models is the [FIWARE Data Models catalogue](https://github.com/Fiware/dataModels/) developed by the FIWARE community. Also SynchroniCity project has analysed:
 
