@@ -7,6 +7,8 @@
 This repository contains a set of OASC Shared Data Models for Smart City domains, adopted and developed in the SynchroniCity project. These data models are one of the "Interoperability Points" of the SynchroniCity framework and are a concrete extension of the OASC Minimal Interoperability Mechanisms (MIMs). In particular the repository contains: JSON Schemas and documentation on harmonized datamodels for smart cities, developed jointly with [OASC](http://oascities.org), and other domains. 
 Such datasets are exposed through the [SynchroniCity Context Management API](https://synchronicityiot.docs.apiary.io/#reference/context-management-api) based on [FIWARE NGSI version 2](http://fiware.github.io/specifications/ngsiv2/stable) API (query)
 
+The Data Models have also been expressed using the ETSI standard [NGSI-LD](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.01.01_60/gs_CIM009v010101p.pdf)
+
 The baseline of the OASC SynchroniCity data models is the [FIWARE Data Models catalogue](https://github.com/Fiware/dataModels/) developed by the FIWARE community. Also SynchroniCity project has analysed:
 
 * The IoT Big Data Harmonised Data Models developed by GSMA. 
