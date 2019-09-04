@@ -24,9 +24,9 @@ from NGSI-LD content.
 
 ## Generating examples in NGSI-LD
 
-There is a [Python script]() that facilitates the transformation betweeen a 
-NGSIv2 JSON representation and an NGSI-LD representation. 
+There is a [Python script](https://github.com/FIWARE/dataModels/blob/master/tools/normalized2LD.py) 
+that facilitates the transformation from an NGSIv2 JSON representation to an NGSI-LD representation. 
 
 ```
-python3 
+python3 normalized2LD.py <example-normalized.json
 ```
