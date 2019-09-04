@@ -12,7 +12,7 @@ and URIs (Fully Qualified Names). The JSON-LD @context can be generated
 using this [Python script]() as follows
 
 ```
-python3 ldcontext_generator.py -f <folder> -u https://uri.synchronicity-iot.eu/dataModels#
+python3 ldcontext_generator.py -f <folder> -u https://uri.synchronicity-iot.eu/ns/dataModels#
 ```
 
 Folder can be root folder of the SynchroniCity Data Models. 
@@ -22,7 +22,7 @@ JSON-LD @context including all the terms defined in those schemas
 mapped to the URI ` https://uri.synchronicity-iot.eu/dataModels#`
 
 Note: SynchroniCity shall consider hosting information at such URI the same 
-way as FIWARE does at [https://uri.fiware.org/dataModels](https://uri.fiware.org/dataModels) 
+way as FIWARE does at [https://uri.fiware.org/ns/dataModels](https://uri.fiware.org/ns/dataModels) 
 
 The SynchroniCity JSON-LD @context has been stored at []() and can be referenced
 from NGSI-LD examplem content. 
