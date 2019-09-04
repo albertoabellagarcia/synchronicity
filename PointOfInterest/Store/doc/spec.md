@@ -183,7 +183,7 @@ Sample uses the NGSI-LD representation.
         ]
     },
     "@context": [
-        "https://example.org/context.jsonld",
+        "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/synchronicity-data-models-context.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]
 }
