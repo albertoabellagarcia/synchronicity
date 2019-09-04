@@ -15,7 +15,7 @@ using this [Python script]() as follows
 python3 ldcontext_generator.py -f <folder> -u https://uri.synchronicity-iot.eu/ns/dataModels#
 ```
 
-Folder can be root folder of the SynchroniCity Data Models. 
+`<folder>` can be root folder of the SynchroniCity Data Models. 
 
 Such Python script processes all the JSON Schemas and will generate a new 
 JSON-LD @context including all the terms defined in those schemas 
