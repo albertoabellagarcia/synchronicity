@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Energy/ThreePhaseAcMultiCircuitMeasurement/schema.json",
+  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Energy/ThreePhaseMultiCircuitAcMeasurement/schema.json",
   "title": "SynchroniCity - Energy / Three Phase Multi Circuit AC Measurement",
   "description": "Electrical measurement from a device that can measure multiple circuits.",
   "type": "object",
@@ -16,7 +16,7 @@
         "type": {
           "type": "string",
           "enum": [
-            "ThreePhaseAcMultiCircuitMeasurement"
+            "ThreePhaseMultiCircuitAcMeasurement"
           ]
         },
         "refDevice": {

@@ -162,8 +162,8 @@ Normalized NGSI response
 
 ```json
 {
-    "id": "ThreePhaseAcMultiCircuitMeasurement:LV3_Ventilation",
-    "type": "ThreePhaseAcMultiCircuitMeasurement",
+    "id": "ThreePhaseMultiCircuitAcMeasurement:LV3_Ventilation",
+    "type": "ThreePhaseMultiCircuitAcMeasurement",
     "currentCircuit": {
         "value": [
             {
@@ -236,8 +236,8 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 
 ```json
 {
-    "id": "ThreePhaseAcMultiCircuitMeasurement:LV3_Ventilation",
-    "type": "ThreePhaseAcMultiCircuitMeasurement",
+    "id": "ThreePhaseMultiCircuitAcMeasurement:LV3_Ventilation",
+    "type": "ThreePhaseMultiCircuitAcMeasurement",
     "description": "measurement corresponding to the ventilation machine rooms",
     "refDevice": "Device:eQL-EDF3GL-2006201705",
     "name": "HKAPK0200",

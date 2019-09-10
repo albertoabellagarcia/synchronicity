@@ -1,6 +1,6 @@
 {
-    "id": "ThreePhaseAcMultiCircuitMeasurement:LV3_Ventilation",
-    "type": "ThreePhaseAcMultiCircuitMeasurement",
+    "id": "ThreePhaseMultiCircuitAcMeasurement:LV3_Ventilation",
+    "type": "ThreePhaseMultiCircuitAcMeasurement",
     "currentCircuit": {
         "value": [
             {
