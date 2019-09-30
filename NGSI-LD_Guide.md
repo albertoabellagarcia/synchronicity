@@ -49,6 +49,12 @@ All the NGSI-LD example files shall be named `example-normalized-ld.jsonld`. As
 a way of example, the [Store](https://gitlab.com/synchronicity-iot/synchronicity-data-models/tree/master/PointOfInterest/Store) 
 Data Model has been updated with NGSI-LD content. 
 
+## NGSI-LD implementations
+
+-   Orion-LD: [https://github.com/Fiware/context.Orion-LD](https://github.com/Fiware/context.Orion-LD)
+-   Scorpio:  [https://github.com/ScorpioBroker/ScorpioBroker](https://github.com/ScorpioBroker/ScorpioBroker)
+-   Djane:    [https://github.com/sensinov/djane/](https://github.com/sensinov/djane/)
+
 ## Additional Resources
 
 Generic JSON Schemas for NGSI-LD content are provided by [ETSI](https://forge.etsi.org/rep/NGSI-LD/NGSI-LD/tree/master/schema)
