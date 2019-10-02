@@ -80,6 +80,8 @@ The following table shows the list of SynchroniCity data models. For each one is
 | Device | [Device](https://github.com/Fiware/dataModels/blob/master/specs/Device/Device/doc/spec.md) | An apparatus (hardware + software + firmware) intended to accomplish a particular task (sensing the environment, actuating, etc.).  | FIWARE | Approved |
 | QueueMonitor | [QueueMonitor](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/QueueMonitor/doc/spec.md) | This data model describes a single queue line for a single service provided by an office.  | Developed by SynchroniCity | Approved |
 | Energy | [ThreePhaseMultiCircuitAcMeasurement](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/Energy/ThreePhaseMultiCircuitAcMeasurement/doc/spec.md) | Represents a measurement from an electrical sub-metering system that monitors three-phase alternating current across multiple circuits.  | Developed by SynchroniCity | Approved |
+| Energy | [GreenEnergyGenerator](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/GreenEnergy/GreenEnergyGenerator/doc/spec.md) | Generic model for Green Energy Generator. A device which can generate energy using Solar or Eolic green energy.  | Developed by SynchroniCity | Approved |
+| Energy | [GreenEnergyMeasurement](https://gitlab.com/synchronicity-iot/synchronicity-data-models/blob/master/GreenEnergy/GreenEnergyMeasurement/doc/spec.md) | Generic model for a snapshot measure of energy generated using one or more green energy sources. Thus, an entity of type GreenEnergyMeasurement cannot exist without an accompanying Entity of Type GreenEnergyGenerator  | Developed by SynchroniCity | Approved |
 
 ## JSON Schemas
 
