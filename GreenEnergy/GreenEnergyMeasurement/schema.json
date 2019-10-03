@@ -14,8 +14,6 @@
           "value":"GreenEnergyMeasurement",
           "description": "NGSI Entity type"
         },
-        "minProperties": 1,
-        "maxProperties": 5,
         "solarPowerGenerated": {
           "type": "number",
           "minimum": 0
