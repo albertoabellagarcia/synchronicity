@@ -3,15 +3,15 @@
 This document explains how the SynchroniCity Data Models can easily be migrated
 to NGSI-LD. There is a great 
 [tutorial on NGSI-LD](https://github.com/FIWARE/tutorials.Linked-Data) 
-a [Howto](https://github.com/FIWARE/dataModels/blob/master/specs/howto.md) 
-and [FAQ](https://github.com/FIWARE/dataModels/blob/master/specs/ngsi-ld_faq.md). 
+a [Howto](https://github.com/FIWARE/data-models/blob/master/specs/howto.md) 
+and [FAQ](https://github.com/FIWARE/data-models/blob/master/specs/ngsi-ld_faq.md). 
 
 
 ## Generating the JSON-LD @context 
 
 The JSON-LD @context contains the the mapping between terms (short hand strings)
 and URIs (Fully Qualified Names). The JSON-LD @context can be generated 
-using this [Python script](https://github.com/FIWARE/dataModels/blob/master/tools/ldcontext_generator.py) as follows
+using this [Python script](https://github.com/FIWARE/data-models/blob/master/tools/ldcontext_generator.py) as follows
 
 ```
 python3 ldcontext_generator.py -f <folder> -u https://uri.synchronicity-iot.eu/ns/data-models
@@ -21,7 +21,7 @@ python3 ldcontext_generator.py -f <folder> -u https://uri.synchronicity-iot.eu/n
 
 Such Python script processes all the JSON Schemas and will generate a new 
 JSON-LD @context including all the terms defined in those schemas 
-mapped to the URI `https://uri.synchronicity-iot.eu/ns/dataModels#<term>`
+mapped to the URI `https://uri.synchronicity-iot.eu/ns/data-models#<term>`
 
 Note: SynchroniCity should consider hosting the content at such URI the same 
 way as FIWARE does at [https://uri.fiware.org/ns/data-models](https://uri.fiware.org/ns/data-models) 
