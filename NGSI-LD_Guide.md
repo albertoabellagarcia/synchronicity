@@ -24,10 +24,10 @@ JSON-LD @context including all the terms defined in those schemas
 mapped to the URI `https://uri.synchronicity-iot.eu/ns/dataModels#<term>`
 
 Note: SynchroniCity should consider hosting the content at such URI the same 
-way as FIWARE does at [https://uri.fiware.org/ns/dataModels](https://uri.fiware.org/ns/data-models) 
+way as FIWARE does at [https://uri.fiware.org/ns/data-models](https://uri.fiware.org/ns/data-models) 
 
 The SynchroniCity JSON-LD @context has been stored at 
-[https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/synchronicity-data-models-context.jsonld](https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/context.jsonld) 
+[https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/context.jsonld](https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/context.jsonld) 
 and can be referenced from NGSI-LD example content. Please note that ideally 
 SynchroniCity should store such LD @context in a proper hosting space and it 
 should be served using the MIME type `application/ld+json`. 
@@ -35,7 +35,7 @@ should be served using the MIME type `application/ld+json`.
 ## Generating examples in NGSI-LD
 
 There is a 
-[Python script](https://github.com/FIWARE/dataModels/blob/master/tools/normalized2LD.py) 
+[Python script](https://github.com/FIWARE/data-models/blob/master/tools/normalized2LD.py) 
 that facilitates the transformation from an NGSIv2 JSON representation 
 to an NGSI-LD representation. 
 
