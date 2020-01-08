@@ -29,10 +29,10 @@
               "type": "string"
             },
             "refVehicleModel": {
-              "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/EntityIdentifierType"
+              "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
             },
             "refRestrictedTrafficArea": {
-              "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/EntityIdentifierType"
+              "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
             }
         }
       }

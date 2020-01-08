@@ -35,7 +35,7 @@
           "minimum": 0
         },
         "refGreenEnergyGenerator":{
-          "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/EntityIdentifierType"
+          "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
         }
       }
     }

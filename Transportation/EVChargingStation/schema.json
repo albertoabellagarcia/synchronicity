@@ -121,7 +121,7 @@
 				"chargeType": {
           "type": "array",
           "items": {
-					  "type": "string",
+  				  "type": "string",
 					  "enum": [
 						  "flat",
 						  "annualPayment",
