@@ -1,34 +1,34 @@
 {
-   "$schema": "http://json-schema.org/schema#",
-   "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Transportation/CarSharingStation/schema.json",
-   "title": "SynchroniCity - Transportation / CarSharingStation",
-   "description": "A site dedicated to car sharing with either direct access from a road or with suitable and clearly marked access points",
-   "type": "object",
-   "required": [
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://gitlab.com/synchronicity-iot/synchronicity-data-models/raw/master/Transportation/CarSharingStation/schema.json",
+  "title": "SynchroniCity - Transportation / CarSharingStation",
+  "description": "A site dedicated to car sharing with either direct access from a road or with suitable and clearly marked access points",
+  "type": "object",
+  "required": [
       "id",
       "type",
       "name",
       "providedVehicleType",
       "category"
-   ],
-   "anyOf": [
+  ],
+  "anyOf": [
       {
-         "required": [
-            "location"
-         ]
+        "required": [
+          "location"
+        ]
       },
       {
-         "required": [
+        "required": [
             "address"
-         ]
+        ]
       }
-   ],
-   "allOf": [
+  ],
+  "allOf": [
       {
-         "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+        "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
       },
       {
-         "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+        "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/Location-Commons"
       },
       {
          "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/PhysicalObject-Commons"
