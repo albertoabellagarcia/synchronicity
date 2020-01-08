@@ -5,8 +5,8 @@
   "description": "A generic public transport route",
   "type": "object",
   "allOf": [
-    { "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/GSMA-Commons" },
-    { "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/Location-Commons" },
+    { "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/GSMA-Commons" },
+    { "$ref": "https://fiware.github.io/data-models/common-schema.json#/definitions/Location-Commons" },
     {
       "properties": {
         "type": {
